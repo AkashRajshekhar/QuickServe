@@ -1,88 +1,55 @@
 🚀 QuickServe — Local Service Marketplace Platform
 
-QuickServe is a local service marketplace platform that connects users with trusted professionals such as plumbers, electricians, beauticians, cleaners, and other local service providers.
+QuickServe is a local service marketplace that connects users with trusted professionals such as plumbers, electricians, beauticians, cleaners, and more.
 
-Users can discover nearby professionals, book services, track bookings, make secure online payments, and share ratings and reviews.
+Users can discover nearby professionals, book services, make secure payments, track bookings, and share ratings & reviews.
 
-📌 Features
-🔐 User & Professional Authentication — JWT + OTP authentication
-📍 Location-Based Service Search — Find nearby professionals using Google Maps API
+✨ Features
+🔐 Authentication — JWT + OTP based user & professional login
+📍 Location-Based Search — Find nearby professionals using Google Maps API
 📅 Booking Management — Schedule, cancel, and manage bookings
-📡 Real-Time Tracking — Track service and booking status
+📡 Real-Time Tracking — Track booking and service status
 ⭐ Ratings & Reviews — 5-star ratings and customer feedback
 💳 Secure Payments — Razorpay / Stripe integration
-🛡️ Admin Dashboard — Manage users, professionals, services, and bookings
+🛡️ Admin Dashboard — Manage users, professionals, services & bookings
 🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JWT, Bcrypt, OTP
-Maps & Location: Google Maps API
-Payments: Razorpay / Stripe
-Deployment: Vercel (Frontend), Render (Backend)
+Category	Technology
+Frontend	React.js, Tailwind CSS
+Backend	Node.js, Express.js
+Database	MongoDB
+Authentication	JWT, Bcrypt, OTP
+Maps	Google Maps API
+Payments	Razorpay / Stripe
+Deployment	Vercel, Render
 📁 Project Structure
 QuickServe/
-├── backend/              # Node.js & Express APIs
-├── frontend/             # React.js frontend
-├── README.md             # Project documentation
-└── LICENSE               # License
+├── backend/       # Node.js & Express APIs
+├── frontend/      # React.js frontend
+├── README.md
+└── LICENSE
 
-⚙️ Installation & Setup
-Clone the Repository
+⚙️ Installation
 git clone https://github.com/AkashRajshekhar/QuickServe.git
 cd QuickServe
 
-Install Backend Dependencies
+Backend
 cd backend
 npm install
-
-Install Frontend Dependencies
-cd ../frontend
-npm install
-
-▶️ Run the Application
-Backend
-
-From the backend directory:
-
 npm start
 
 Frontend
-
-From the frontend directory:
-
+cd frontend
+npm install
 npm run dev
 
-🔄 How QuickServe Works
-User
-  ↓
-Search Local Services
-  ↓
-Select Professional
-  ↓
-Book Service
-  ↓
-Make Payment
-  ↓
-Professional Accepts Booking
-  ↓
-Track Service
-  ↓
-Service Completed
-  ↓
-Rate & Review
+🔄 How It Works
 
-🎯 Project Objective
+Search Service → Select Professional → Book Service → Make Payment → Professional Accepts → Track Service → Complete → Rate & Review
 
-QuickServe aims to simplify the process of finding and booking reliable local professionals while providing service providers with an easy-to-use platform to manage their services and bookings.
+🎯 Objective
+
+QuickServe aims to make finding and booking reliable local professionals simple, fast, and secure while helping service providers manage their services and bookings efficiently.
 
 📄 License
 
 This project is licensed under the terms of the included LICENSE file.
-
-:::
-
-**Best branding:**  
-**QuickServe** → *Local Service Marketplace Platform*
-
-GitHub repository: `AkashRajshekhar/QuickServe`
